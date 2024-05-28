@@ -2,7 +2,7 @@
 
 # Scan all folders under external/chromium-webview/prebuilt/*
 echo "Scanning folders in external/chromium-webview/prebuilt/*"
-folders=$(find vendor/motorola/rhode -type d)
+folders=vendor/motorola/rhode
 
 # Install Git LFS
 echo "Installing Git LFS"
